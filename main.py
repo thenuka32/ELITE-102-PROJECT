@@ -56,14 +56,7 @@ def login():
     main()
 def main():
     while True:
-        print("""
-            1. Deposit
-            2. Create
-            3. View
-            4. end
-          
-            
-            """)
+        print("1. Deposit 2. Create 3. View 4. end")
         choice = int(input("choose: "))
         if choice == 1:
             deposit()
